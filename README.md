@@ -28,6 +28,8 @@ Sites/treatment table (*note this table does not have headers*):
 | sample4       | armpit_sweat  |
 | ...           | ...           |
 
+___________________________________________________________________________
+
 ## diversity.R
 This script provides richness as well Shannon and Simpson alpha diversity metrics as calculated by vegan 2.5-6 package (Oksanen et al., 2019).
 
