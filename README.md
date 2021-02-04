@@ -45,7 +45,7 @@ This script provides richness as well Shannon and Simpson alpha diversity metric
 3. Shannon's diversity index calculation 
 4. Simpson's diversity index calculation
 
-   each step includes a barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons and boxplot of sites/treatments signaling the mean
+   ->each step includes a barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons and boxplot of sites/treatments signaling the mean
 
 #### Example outputs
 
@@ -90,7 +90,7 @@ For further visualization of the composition of different samples in terms of re
 _________________________________
 
 
-# indicators.R
+## indicators.R
 This script is based on the____
 
 #### Dependencies
@@ -114,7 +114,7 @@ _____________________________
 # Credits
 * Manuel García-Ulloa (https://github.com/manuelgug)
 * Some parts of the diversity.R, non-metric_multidimensional_scaling.R and indicators.R scripts were based on jkzorz's tutorials (https://github.com/jkzorz/jkzorz.github.io)
-
+* Sample data comes from ____%&/)#$%"#$%&%)"#$%"$%&#/(
 
 ## References
 
