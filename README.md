@@ -40,7 +40,10 @@ This script provides richness as well Shannon and Simpson alpha diversity metric
 * _RColorBrewer_
 
 #### Steps
-
+1. Import data
+2. Richness calculation (barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons, boxplot of sites/treatments)
+3. Shannon's diversity index calculation (barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons, boxplot of sites/treatments)
+4. Simpson's diversity index calculation (barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons, boxplot of sites/treatments)
 
 #### Example outputs
 
@@ -57,7 +60,10 @@ Non-Metric Multidimensional Scaling (NMDS) is an non-marametric ordination analy
 * _data.table_
 
 #### Steps
-
+1. Import data
+2. Data checking (normalization, Bray-Curtis dissimilarity matrix calculation, anova of beta dispersion)
+3. Statistical comparisons of sites/treatments (permanova, anosim)
+4. NMDS (stress score calculation and plotting, NMDS plot)
 
 #### Example outputs
 
@@ -72,6 +78,10 @@ For further visualization of the composition of different samples in terms of re
 * _RColorBrewer_
 
 #### Steps
+1. Import data
+2. Data normalization
+3. Threshold of minimum relative abundance (default: 0.005)
+4. Plotting
 
 #### Example outputs
 
@@ -89,7 +99,10 @@ This script is based on the____
 * _data.table_
 
 #### Steps
-
+1. Import data
+2. Data normalization
+3. Indicator analysis
+4. P-value correction (Benjamini-Hochberg)
 
 #### Example outputs
 
@@ -97,8 +110,8 @@ _____________________________
 
 
 # Credits
-Manuel García-Ulloa (https://github.com/manuelgug)
-Some parts of the diversity.R, non-metric_multidimensional_scaling.R and indicators.R scripts were based on jkzorz's tutorials (https://github.com/jkzorz/jkzorz.github.io)
+* Manuel García-Ulloa (https://github.com/manuelgug)
+* Some parts of the diversity.R, non-metric_multidimensional_scaling.R and indicators.R scripts were based on jkzorz's tutorials (https://github.com/jkzorz/jkzorz.github.io)
 
 
 ## References
