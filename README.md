@@ -41,9 +41,11 @@ This script provides richness as well Shannon and Simpson alpha diversity metric
 
 #### Steps
 1. Import data
-2. Richness calculation (barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons, boxplot of sites/treatments)
-3. Shannon's diversity index calculation (barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons, boxplot of sites/treatments)
-4. Simpson's diversity index calculation (barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons, boxplot of sites/treatments)
+2. Richness calculation 
+3. Shannon's diversity index calculation 
+4. Simpson's diversity index calculation
+
+   each step includes a barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons and boxplot of sites/treatments signaling the mean
 
 #### Example outputs
 
