@@ -30,6 +30,8 @@ Sites/treatment table (*note this table does not have headers*):
 
 ___________________________________________________________________________
 
+For the example images, a data set of species from North Pacif
+___________________________________________________________________________
 ## diversity.R
 This script provides richness as well Shannon and Simpson alpha diversity metrics as calculated by vegan 2.5-6 package (Oksanen et al., 2019).
 
@@ -45,7 +47,7 @@ This script provides richness as well Shannon and Simpson alpha diversity metric
 3. Shannon's diversity index calculation 
 4. Simpson's diversity index calculation
 
-   ->each step includes a barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons and boxplot of sites/treatments signaling the mean
+   ->each step creates a barplot of individual samples, pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons and boxplot of sites/treatments signaling the mean
 
 #### Example outputs
 
@@ -114,7 +116,7 @@ _____________________________
 # Credits
 * Manuel García-Ulloa (https://github.com/manuelgug)
 * Some parts of the diversity.R, non-metric_multidimensional_scaling.R and indicators.R scripts were based on jkzorz's tutorials (https://github.com/jkzorz/jkzorz.github.io)
-* Sample data comes from ____%&/)#$%"#$%&%)"#$%"$%&#/(
+* Sample data comes from publicly available Eastern Mediterranean 16s Survey project https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp10029
 
 ## References
 
