@@ -6,11 +6,11 @@ To correctly use any of the scripts you will need:
 * An abundance (count) table of OTUs or any taxonomic or functional annotation.
 * A table indicating the sites/treatment or any other higher category to which each sample belongs.
 
-### Example inputs
+### Required format of input files
 
 Abundance table: 
 
-| Samples       | OTU1          | OTU2  | etc |
+| samples       | OTU1          | OTU2  | etc |
 | ------------- |:-------------:| -----:| --: |
 | sample1       | 50            | 6     | ... |
 | sample2       | 77            | 99    | ... |
@@ -47,6 +47,8 @@ This script provides richness as well Shannon and Simpson alpha diversity metric
    ->each step performs a pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons and creates boxplot of sites/treatments signaling the means
 
 #### Example outputs
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 _____________________________
 
