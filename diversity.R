@@ -40,7 +40,7 @@ ggplot(as.data.frame(abund_richness_melted), aes(x=sites$V2, y=abund_richness)) 
         axis.title.y = element_text(size = 16, face = "bold"), legend.title = element_text(size = 16, face = "bold"), 
         legend.text = element_text(size = 7, colour = "black"), 
         axis.text.y = element_text(colour = "black", size = 10, face = "bold")) + 
-  labs(x = "", y = "Species richness", fill = "Sites")+ 
+  labs(x = "", y = "Richness", fill = "Sites")+ 
   scale_fill_manual(values=col_vector)+
   guides(fill=guide_legend(ncol=1))+
   guides(fill=FALSE)+
