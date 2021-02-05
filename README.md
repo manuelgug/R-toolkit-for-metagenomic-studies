@@ -48,7 +48,7 @@ This script provides richness as well Shannon and Simpson alpha diversity metric
 
 #### Example outputs
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/manuelgug/R-toolkit-for-metagenomic-studies/blob/main/example_outputs/diversity.png)
 
 _____________________________
 
@@ -70,6 +70,9 @@ Non-Metric Multidimensional Scaling (NMDS) is an non-marametric ordination analy
 
 #### Example outputs
 
+![alt text](https://github.com/manuelgug/R-toolkit-for-metagenomic-studies/blob/main/example_outputs/stress_plot.png)
+
+![alt text](https://github.com/manuelgug/R-toolkit-for-metagenomic-studies/blob/main/example_outputs/NMDS.png)
 _____________________________________
 
 ## stacked_barplots.R
@@ -88,6 +91,7 @@ For further visualization of the composition of different samples in terms of re
 
 #### Example outputs
 
+![alt text](https://github.com/manuelgug/R-toolkit-for-metagenomic-studies/blob/main/example_outputs/stacked_barplot.png)
 _________________________________
 
 
@@ -105,9 +109,6 @@ This script is based on the____
 2. Data normalization
 3. Indicator analysis
 4. P-value correction (Benjamini-Hochberg)
-
-#### Example outputs
-
 _____________________________
 
 
