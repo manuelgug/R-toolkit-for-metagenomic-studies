@@ -98,7 +98,6 @@ This script is based on the____
 #### Dependencies
 * _indicspecies_
 * _ggplot2_
-* _reshape2_
 * _vegan_
 * _data.table_
 
