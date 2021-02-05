@@ -45,9 +45,7 @@ NMDS <-metaMDS(relabun, k=2, distance = "bray", trymax=1000)
 
 #Validation of NMDS through stress score: < 0.05 = excellent; < 0.1 = great; < 0.2 = ok,  > 0.3 = poor
 NMDS$stress
-png("stress_plot.png", units="in", width=5, height=5, res=300)
 stressplot(NMDS)
-dev.off()
 
 #plot NMDS
 NMDS_SCORES<-as.data.frame(scores(NMDS))
@@ -63,6 +61,5 @@ ggplot(NMDS_SCORES, aes(x = NMDS1, y = NMDS2, label=sites$V1))+
   geom_point(size = 3.5, aes(color = sites$V2))+ 
   geom_text(aes(label=sites$V1),hjust=0, vjust=0)+
   scale_colour_manual(values=c(colorRamps::primary.colors(length(sites$V1),length(unique(sites$V2)), T)))+
-  ggtitle("Species NMDS") + 
   theme(legend.title = element_blank())
 
