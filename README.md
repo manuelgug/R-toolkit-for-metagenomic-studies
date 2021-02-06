@@ -94,7 +94,7 @@ _________________________________
 
 
 ## indicators.R
-This script is based on the____ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+This script uses the _indicspecies_ package by De Cáceres and Lagendre (2009), which assesses the strength and statistical significance of the relationship between the occurrence/abundance of taxonomic categories and sites, providing specific taxa associated to them. I have also used this method for functions. P-value correction is included.
 
 #### Dependencies
 * _indicspecies_
@@ -118,3 +118,4 @@ _____________________________
 ## References
 
 Oksanen, J., Blanchet, F. G., Friendly, M., Kindt, R., Legendre, P., McGlinn, D., ... & Wagner, H. (2019). vegan: Community Ecology Package. R package version 2.5–6. 2019.
+Cáceres, M. D., & Legendre, P. (2009). Associations between species and groups of sites: indices and statistical inference. Ecology, 90(12), 3566-3574.
