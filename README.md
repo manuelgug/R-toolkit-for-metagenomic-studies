@@ -94,7 +94,7 @@ _________________________________
 
 
 ## indicators.R
-This script is based on the____
+This script is based on the____ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 
 #### Dependencies
 * _indicspecies_
@@ -111,7 +111,7 @@ _____________________________
 
 
 # Credits
-* Manuel García-Ulloa (https://github.com/manuelgug)
+* Manuel García-Ulloa https://github.com/manuelgug
 * Some parts of the diversity.R, non-metric_multidimensional_scaling.R and indicators.R scripts were based on jkzorz's tutorials (https://github.com/jkzorz/jkzorz.github.io)
 * Sample data comes from publicly available Eastern Mediterranean 16s Survey project https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp10029
 
