@@ -47,13 +47,12 @@ This script provides richness as well Shannon and Simpson alpha diversity metric
    ->each step performs a pairwise Wilcox test, Kruskal-Wallis test for multiple comparisons and creates boxplot of sites/treatments signaling the means
 
 #### Example outputs
-
 ![alt text](https://github.com/manuelgug/R-toolkit-for-metagenomic-studies/blob/main/example_outputs/diversity.png)
 
 _____________________________
 
 ## non-metric_multidimensional_scaling.R
-Non-Metric Multidimensional Scaling (NMDS) is an non-marametric ordination analysis widely (but not exclusively) used in microbial ecology. It uses a dissimilarity matrix to arrange samples into a 2D plane depending on its taxonomic or functional composition. Although there are  many dissimilarity matrices for many different purposes (see _vegan_ documentation), Bray-Curtis dissimilarity matrix is the most used for microbial ecology studies.
+Non-Metric Multidimensional Scaling (NMDS) is an ordination analysis widely (but not exclusively) used in microbial ecology. It uses a dissimilarity matrix to arrange samples into a 2D plane depending on its taxonomic or functional composition. Although there are  many dissimilarity matrices for many different purposes (see _vegan_ documentation), Bray-Curtis dissimilarity matrix is the most used for microbial ecology studies.
 
 #### Dependencies
 * _ggplot2_
@@ -69,7 +68,6 @@ Non-Metric Multidimensional Scaling (NMDS) is an non-marametric ordination analy
 4. NMDS (stress score calculation and plotting, NMDS plot)
 
 #### Example outputs
-
 ![alt text](https://github.com/manuelgug/R-toolkit-for-metagenomic-studies/blob/main/example_outputs/stress_plot.png)
 
 ![alt text](https://github.com/manuelgug/R-toolkit-for-metagenomic-studies/blob/main/example_outputs/NMDS.png)
