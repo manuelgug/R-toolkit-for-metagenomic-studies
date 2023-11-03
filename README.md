@@ -112,6 +112,7 @@ _____________________________
 
 # Credits
 * Manuel II García-Ulloa https://github.com/manuelgug
+* Mariette Viladomat Jasso https://github.com/MarietteViladomat
 * Some parts of the diversity.R, non-metric_multidimensional_scaling.R and indicators.R scripts were based on jkzorz's tutorials (https://github.com/jkzorz/jkzorz.github.io)
 * Sample data comes from publicly available Eastern Mediterranean 16s Survey project https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp10029
 
